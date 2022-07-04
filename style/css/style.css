@@ -667,17 +667,17 @@ nav.navbar-profile {
 @media only screen and (min-width: 960px) {
     /* styles for browsers larger than 960px; */
     .header .img-user {
-        width: 500px !important;
-        height: 500px !important;
+        /* width: 500px !important;
+        height: 500px !important; */
     }
 }
 
 @media only screen and (min-width: 1440px) {
     /* styles for browsers larger than 1440px; */
-    .header .img-user {
+    /* .header .img-user {
         width: 400px !important;
         height: 400px !important;
-    }
+    } */
 }
 
 @media only screen and (min-width: 2000px) {
