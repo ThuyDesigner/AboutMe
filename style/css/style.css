@@ -246,7 +246,7 @@ nav.navbar-profile {
 /* about */
 
 .about {
-    padding: 200px;
+    padding: 200px 0;
 }
 
 .about .top {
@@ -662,4 +662,44 @@ nav.navbar-profile {
 }
 
 
-/* link */
+/* reposive */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .header .img-user {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .header .img-user {
+        width: 500px !important;
+        height: 500px !important;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .header .img-user {
+        width: 700px;
+        height: 700px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
