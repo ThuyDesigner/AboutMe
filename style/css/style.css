@@ -664,42 +664,56 @@ nav.navbar-profile {
 
 /* reposive */
 
-
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
-    .header .img-user {
-        width: 400px;
-        height: 400px;
-    }
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
     .header .img-user {
         width: 500px !important;
         height: 500px !important;
     }
 }
 
-
-/* Medium devices (landscape tablets, 768px and up) */
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
     .header .img-user {
-        width: 700px;
-        height: 700px;
+        width: 400px !important;
+        height: 400px !important;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .header .img-user {
+        width: 200px !important;
+        height: 200px !important;
+    }
+}
+
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    .header .img-user {
+        width: 400px !important;
+        height: 400px !important;
+    }
+    .col-md-6 {
+        width: 100% !important;
     }
 }
 
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* different techniques for iPad screening */
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    .header .img-user {
+        width: 500px !important;
+        height: 500px !important;
+    }
+    /* For portrait layouts only */
+}
 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+}
