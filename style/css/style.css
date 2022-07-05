@@ -710,6 +710,7 @@ nav.navbar-profile {
         top: 50%;
         left: 10% !important;
         text-align: start;
+        padding: 20px 0;
     }
     .header .contact {
         position: absolute;
@@ -719,6 +720,9 @@ nav.navbar-profile {
     }
     .navbar-profile .navbar-profile-detail .navbar-brand svg {
         height: 45px !important;
+    }
+    .navbar-profile .navbar-profile-detail {
+        flex-wrap: wrap;
     }
 }
 
