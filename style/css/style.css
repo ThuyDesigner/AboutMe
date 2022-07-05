@@ -117,7 +117,8 @@
 }
 
 body {
-    font-family: 'Raleway' !important
+    font-family: 'Raleway' !important;
+    overflow-x: hidden;
 }
 
 nav.navbar-profile {
@@ -723,6 +724,20 @@ nav.navbar-profile {
     }
     .navbar-profile .navbar-profile-detail {
         flex-wrap: wrap;
+    }
+    .about .top {
+        flex-direction: column;
+    }
+    .about .top h1 {
+        border-right: none;
+        border-bottom: 2px solid var(--color-primary);
+        padding-bottom: 20px;
+    }
+    .about .content-about .img-about .lable {
+        left: 0;
+    }
+    .about .content-about .img-about {
+        padding: 20px;
     }
 }
 
