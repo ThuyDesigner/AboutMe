@@ -687,8 +687,38 @@ nav.navbar-profile {
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
     .header .img-user {
-        width: 200px !important;
-        height: 200px !important;
+        width: 100% !important;
+        height: 250px !important;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .nav-content {
+        font-size: 12px;
+        width: 100%;
+        /* width: 100%;
+        background: white; */
+    }
+    .navbar-profile .navbar-profile-detail .nav-content .navbar-nav li {
+        padding: 10px;
+    }
+    .header .title {
+        position: absolute;
+        top: 50%;
+        left: 10% !important;
+        text-align: start;
+    }
+    .header .contact {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        left: 0 !important;
+    }
+    .navbar-profile .navbar-profile-detail .navbar-brand svg {
+        height: 45px !important;
     }
 }
 
