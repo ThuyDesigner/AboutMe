@@ -756,7 +756,7 @@ nav.navbar-profile {
         padding: 20px;
     }
     .header .title h1 {
-        font-size: 36px;
+        font-size: 36px !important;
     }
     .contact {
         padding: 0;
