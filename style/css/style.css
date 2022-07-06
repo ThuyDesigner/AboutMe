@@ -805,3 +805,34 @@ nav.navbar-profile {
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
     /* For landscape layouts only */
 }
+
+
+/* roll bar */
+
+
+/* ===== Scrollbar CSS ===== */
+
+
+/* Firefox */
+
+* {
+    scrollbar-width: none;
+    scrollbar-color: #2a272b #ffffff;
+}
+
+
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #2a272b;
+    border-radius: 11px;
+    border: 2px solid #ffffff;
+}
