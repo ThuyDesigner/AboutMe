@@ -237,7 +237,7 @@ nav.navbar-profile {
     position: absolute;
     bottom: 0;
     display: flex;
-    left: 15%;
+    left: 22%;
 }
 
 .header .contact ul {
@@ -557,7 +557,7 @@ nav.navbar-profile {
 /* contact */
 
 .contact {
-    padding: 120px 0;
+    padding: 60px 0;
 }
 
 .social svg {
@@ -780,7 +780,7 @@ nav.navbar-profile {
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     .header .img-user {
         width: 100% !important;
-        height: 500px !important;
+        height: 700px !important;
         left: 0;
         right: 0;
         margin-left: auto;
@@ -798,6 +798,12 @@ nav.navbar-profile {
     }
     .about .content-about .img-about .lable {
         left: 0 !important;
+    }
+    .header .contact ul {
+        margin-top: -200px;
+        font-size: 20px !important;
+        padding: 0 !important;
+        margin-left: -120px;
     }
     /* For portrait layouts only */
 }
