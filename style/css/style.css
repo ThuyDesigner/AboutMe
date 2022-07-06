@@ -118,10 +118,13 @@
 
 body {
     font-family: 'Raleway' !important;
+    overflow-x: hidden !important;
+    position: relative;
 }
 
 #app {
     overflow-x: hidden !important;
+    position: relative;
 }
 
 nav.navbar-profile {
@@ -187,7 +190,7 @@ nav.navbar-profile {
 }
 
 .header .img-user {
-    width: 800px;
+    width: auto;
     height: 800px;
     position: absolute;
     top: 15%;
@@ -211,16 +214,23 @@ nav.navbar-profile {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 600;
+    background-color: white;
+    padding: 5px;
+    color: var(--color-primary-dark);
 }
 
 .header .title h4 {
     color: var(--color-text-secondary);
     margin-bottom: 20px;
+    background-color: white;
+    padding: 5px;
 }
 
 .header .title a {
     color: var(--color-primary);
     text-decoration: none;
+    background-color: white;
+    padding: 5px;
 }
 
 .header .contact {
@@ -752,7 +762,7 @@ nav.navbar-profile {
 @media only screen and (device-width: 768px) {
     /* default iPad screens */
     .header .img-user {
-        width: 400px !important;
+        width: auto !important;
         height: 400px !important;
     }
     .col-md-6 {
@@ -765,8 +775,22 @@ nav.navbar-profile {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     .header .img-user {
-        width: 500px !important;
+        width: 100% !important;
         height: 500px !important;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        width: 100%;
+        padding: 20px;
+    }
+    .header .title {
+        position: absolute;
+        top: 50%;
+        left: 10% !important;
+        text-align: start;
+        padding: 20px 0;
     }
     /* For portrait layouts only */
 }
