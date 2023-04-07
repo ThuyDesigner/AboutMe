@@ -766,6 +766,17 @@ nav.navbar-profile {
     .contact {
         padding: 0;
     }
+    /* contact page */
+    .contact-content {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .contact-content .img-contact img{
+        height: 150px !important;
+    }
+    .timeline ul li a {
+        word-wrap: break-word !important; 
+    }
 }
 
 @media only screen and (device-width: 768px) {
@@ -776,6 +787,13 @@ nav.navbar-profile {
     }
     .col-md-6 {
         width: 100% !important;
+    }
+    .contact-content {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .contact-content .img-contact img{
+        height: 150px !important;
     }
 }
 
@@ -810,6 +828,18 @@ nav.navbar-profile {
         padding: 0 !important;
         margin-left: -120px;
     }
+    .contact-content {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .contact-content .img-contact img{
+        height: 150px !important;
+    }
+     /* contact page */
+    .timeline ul li a {
+        word-wrap: break-word !important; 
+    }
+    
     /* For portrait layouts only */
 }
 
