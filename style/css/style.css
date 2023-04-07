@@ -139,7 +139,9 @@ nav.navbar-profile {
 /* .change-color {
     background: red;
 } */
-
+.navbar-profile {
+    
+}
 .navbar-profile .navbar-profile-detail {
     display: flex;
 }
@@ -367,7 +369,7 @@ nav.navbar-profile {
 
 .services {
     padding: 120px 0;
-    background-image: var(--bg-gradien);
+    /* background-image: var(--bg-gradien); */
 }
 
 .services .top {
@@ -401,6 +403,8 @@ nav.navbar-profile {
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 
 .services .content-services .item-services .icon svg {
@@ -556,8 +560,9 @@ nav.navbar-profile {
 
 /* contact */
 
-.contact {
+.contact.bg {
     padding: 60px 0;
+    background: var(--bg-gradien);
 }
 
 .social svg {

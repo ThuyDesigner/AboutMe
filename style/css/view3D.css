@@ -1,0 +1,49 @@
+#world {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(#e4e0ba, #f7d9aa);
+}
+
+
+#scene-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.view-3d {
+  background-color: var(--bg-primary);
+}
+
+.item-3d .view-3d-item {
+  border: 1px solid var(--color-border);
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  background: var(--color-white);
+  flex-direction: column;
+ 
+
+}
+
+.item-3d .view-3d-item .view-model {
+  background: var(--color-text-primary);
+  width: 100%;
+  border-radius: 0.25rem;
+  height: 250px;
+  margin: auto;
+
+}
+
+
+.item-3d .view-3d-item .name-model {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  width: 100%;
+}
