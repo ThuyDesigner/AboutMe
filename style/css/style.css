@@ -774,6 +774,9 @@ nav.navbar-profile {
     .contact-content .img-contact img{
         height: 150px !important;
     }
+    .contact-content .img-contact {
+        text-align: center;
+    }
     .timeline ul li a {
         word-wrap: break-word !important; 
     }
@@ -794,6 +797,9 @@ nav.navbar-profile {
     }
     .contact-content .img-contact img{
         height: 150px !important;
+    }
+    .contact-content .img-contact {
+        text-align: center;
     }
 }
 
@@ -834,6 +840,9 @@ nav.navbar-profile {
     }
     .contact-content .img-contact img{
         height: 150px !important;
+    }
+    .contact-content .img-contact {
+        text-align: center;
     }
      /* contact page */
     .timeline ul li a {
