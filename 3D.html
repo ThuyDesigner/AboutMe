@@ -19,8 +19,15 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- 3d -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    
-  
+    <!-- Loads <model-viewer> for modern browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+    </script>
+
+    <!-- Loads <model-viewer> for old browsers like IE11: -->
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+    </script>
+
+
 
 
     <!-- change color navbar -->
@@ -39,7 +46,7 @@
         }
     </script>
 
-</script>
+    </script>
     <!--  -->
     <script type="text/javascript">
         function imgSlider(anything) {
@@ -51,7 +58,7 @@
 
         }
     </script>
-  
+
     <!-- add active -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
@@ -170,18 +177,17 @@
             <div class="content">
                 <div class="textBox">
                     <h2>That's What<br><span>I Ejoin</span></h2>
-                    <p >Experiencing and discovering new things <br>is always on my mind.<br>
+                    <p>Experiencing and discovering new things <br>is always on my mind.<br>
                         Here are the 3D models that <br> I created during my discovery of the "Nomad Sculpt" app</p>
                     <!-- <a href="#">View All Products</a> -->
                 </div>
                 <div class="imgBox">
                     <div class="view-3d-item">
                         <div class="view-model">
-                            <model-viewer camera-controls touch-action="pan-y" shadow-intensity="1"  alt="A 3D
+                            <model-viewer camera-controls touch-action="pan-y" shadow-intensity="1" alt="A 3D
                                 model of a
                                 sphere" src="./style/3dFile/clound.glb" style="margin: auto; top: 0;
-                                bottom: 0; height: 100%; width: 100%;" class="modelView3D" 
-                                >
+                                bottom: 0; height: 100%; width: 100%;" class="modelView3D">
                             </model-viewer>
                         </div>
 
@@ -193,7 +199,8 @@
             <ul class="thumb">
                 <li>
 
-                    <img src="./style/img/clound.png" onclick="imgSlider('./style/3dFile/clound.glb');
+                    <img src="./style/img/clound.png"
+                        onclick="imgSlider('./style/3dFile/clound.glb');
                      changeBgColor('linear-gradient(180deg, rgba(255,233,243,1) 0%, rgba(170,188,222,1) 52%, rgba(181,213,255,1) 100%)')">
                 </li>
                 <li>
@@ -201,16 +208,16 @@
                         onclick="imgSlider('./style/3dFile/owl/owl.glb');
                      changeBgColor('linear-gradient(180deg, rgba(220,231,255,1) 0%, rgba(154,110,202,1) 63%, rgba(227,212,252,1) 100%)')">
                 </li>
-                
-                
-               
+
+
+
                 <li>
                     <img src="./style/img/cat.png"
                         onclick="imgSlider('./style/3dFile/cat/cat.glb');
                      changeBgColor('linear-gradient(180deg, rgba(220,231,255,1) 0%, rgba(154,110,202,1) 63%, rgba(227,212,252,1) 100%)')">
                 </li>
-                
-                
+
+
                 <li>
                     <img src="./style/img/crabDuc.png"
                         onclick="imgSlider('./style/3dFile/crab.glb');changeBgColor('linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(163,149,207,1) 52%, rgba(218,234,254,1) 100%)')">
@@ -271,7 +278,7 @@
             </div>
         </footer>
     </div>
-    
+
 </body>
 
 </html>
