@@ -179,11 +179,19 @@
                 <div class="imgBox">
                     <div class="view-3d-item">
                         <div class="view-model">
-                            <model-viewer camera-controls touch-action="pan-y" shadow-intensity="1" alt="A 3D
+                            <model-viewer camera-controls ar-modes="webxr scene-viewer quick-look" ar touch-action="pan-y" shadow-intensity="1" alt="A 3D
                                 model of a
                                 sphere" src="./style/3dFile/clound.glb" style="margin: auto; top: 0;
                                 bottom: 0; height: 100%; width: 100%;" class="modelView3D">
-                               
+                                <div class="progress-bar hide" slot="progress-bar">
+                                    <div class="update-bar"></div>
+                                </div>
+                                <button slot="ar-button" id="ar-button">
+                                    View in your space
+                                </button>
+                                <div id="ar-prompt">
+                                    <img src="./img/ar_hand_prompt.png">
+                                </div>
                             </model-viewer>
                             
                             
@@ -286,6 +294,10 @@
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
     </script>
       <script src="https://cdn.jsdelivr.net/npm/@google/model-viewer"></script>
+        <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    <script src="js/load3Dmodel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
 </body>
 
 </html>
