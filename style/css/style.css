@@ -780,6 +780,37 @@ nav.navbar-profile {
     .timeline ul li a {
         word-wrap: break-word !important; 
     }
+    /* 3d page */
+    .content {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .content .textBox{
+        text-align: center !important;
+    }
+    .content .textBox h2 {
+        font-size: 30px !important;
+       
+        
+
+        
+    }
+    .content .textBox h2 span{
+        font-size: 50px !important;
+       
+    }
+    .content .textBox p{
+        font-size: 14px !important;
+        word-wrap: break-word !important; 
+        padding-top: 0 !important;
+    }
+    .content .imgBox{
+        padding: 0 !important;
+        height: 500px !important;
+    }
+    .col-md-6 {
+        width: 100% !important;
+    }
 }
 
 @media only screen and (device-width: 768px) {
@@ -800,6 +831,37 @@ nav.navbar-profile {
     }
     .contact-content .img-contact {
         text-align: center;
+    }
+    /* 3d page */
+    .content {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .content .textBox{
+        text-align: center !important;
+    }
+    .content .textBox h2 {
+        font-size: 30px !important;
+       
+        
+
+        
+    }
+    .content .textBox h2 span{
+        font-size: 50px !important;
+       
+    }
+    .content .textBox p{
+        font-size: 14px !important;
+        word-wrap: break-word !important; 
+        padding-top: 0 !important;
+    }
+    .content .imgBox{
+        padding: 0 !important;
+        height: 500px !important;
+    }
+    .timeline{
+        width: 100% !important;
     }
     
 }
@@ -848,9 +910,42 @@ nav.navbar-profile {
     .contact-content .img-contact {
         text-align: center;
     }
+    /* 3d page */
+    .content {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .content .textBox{
+        text-align: center !important;
+    }
+    .content .textBox h2 {
+        font-size: 30px !important;
+       
+        
+
+        
+    }
+    .content .textBox h2 span{
+        font-size: 50px !important;
+       
+    }
+    .content .textBox p{
+        font-size: 14px !important;
+        word-wrap: break-word !important; 
+        padding-top: 0 !important;
+    }
+    .content .imgBox{
+        padding: 0 !important;
+        height: 500px !important;
+    }
      /* contact page */
     .timeline ul li a {
         word-wrap: break-word !important; 
+        width: 60% !important;
+    }
+    .timeline{
+        width: 80% !important;
+        
     }
     
     /* For portrait layouts only */
