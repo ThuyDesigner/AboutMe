@@ -58,8 +58,8 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(234,254,255);
-  background: linear-gradient(180deg, rgba(255,233,243,1) 0%, rgba(170,188,222,1) 52%, rgba(181,213,255,1) 100%);
+ 
+  background: #a3b6f4;
   transition: 0.5s;
 
 }
@@ -121,7 +121,11 @@ section {
 }
 
 .content .imgBox img {
-  max-width: 260px;
+  /* max-width: 260px; */
+  height: auto;
+  width: 600px;
+  object-fit: cover;
+  border-radius: 2rem;
 }
 
 .thumb {

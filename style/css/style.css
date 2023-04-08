@@ -139,9 +139,8 @@ nav.navbar-profile {
 /* .change-color {
     background: red;
 } */
-.navbar-profile {
-    
-}
+.navbar-profile {}
+
 .navbar-profile .navbar-profile-detail {
     display: flex;
 }
@@ -686,6 +685,7 @@ nav.navbar-profile {
 /* reposive */
 
 @media only screen and (min-width: 960px) {
+
     /* styles for browsers larger than 960px; */
     .header .img-user {
         /* width: 500px !important;
@@ -706,6 +706,7 @@ nav.navbar-profile {
 }
 
 @media only screen and (max-device-width: 480px) {
+
     /* styles for mobile browsers smaller than 480px; (iPhone) */
     .header .img-user {
         width: 100% !important;
@@ -717,15 +718,18 @@ nav.navbar-profile {
         padding-top: 20px;
         width: 100%;
     }
+
     .nav-content {
         font-size: 12px;
         /* width: 100%; */
         /* width: 100%;
         background: white; */
     }
+
     .navbar-profile .navbar-profile-detail .nav-content .navbar-nav li {
         padding: 10px;
     }
+
     .header .title {
         position: absolute;
         top: 50%;
@@ -734,136 +738,186 @@ nav.navbar-profile {
         padding: 20px 0;
         margin-top: 20px;
     }
+
     .header .contact {
         position: absolute;
         bottom: 0;
         display: flex;
         left: 0 !important;
     }
+
     .navbar-profile .navbar-profile-detail .navbar-brand svg {
         height: 45px !important;
     }
+
     .navbar-profile .navbar-profile-detail {
         flex-wrap: wrap;
     }
+
     .about .top {
         flex-direction: column;
     }
+
     .about .top h1 {
         border-right: none;
         border-bottom: 2px solid var(--color-primary);
         padding-bottom: 20px;
     }
+
     .about .content-about .img-about .lable {
         left: 0;
     }
+
     .about .content-about .img-about {
         padding: 20px;
     }
+
     .header .title h1 {
         font-size: 36px !important;
     }
+
     .contact {
         padding: 0;
     }
+
     /* contact page */
     .contact-content {
         display: flex;
         flex-direction: column !important;
     }
-    .contact-content .img-contact img{
+
+    .contact-content .img-contact img {
         height: 150px !important;
     }
+
     .contact-content .img-contact {
         text-align: center;
     }
+
     .timeline ul li a {
-        word-wrap: break-word !important; 
+        word-wrap: break-word !important;
     }
+
     /* 3d page */
     .content {
         display: flex;
         flex-direction: column !important;
     }
-    .content .textBox{
+
+    .content .textBox {
         text-align: center !important;
     }
+
     .content .textBox h2 {
         font-size: 30px !important;
-       
-        
 
-        
+
+
+
     }
-    .content .textBox h2 span{
+
+    .content .textBox h2 span {
         font-size: 50px !important;
-       
+
     }
-    .content .textBox p{
+
+    .content .textBox p {
         font-size: 14px !important;
-        word-wrap: break-word !important; 
+        word-wrap: break-word !important;
         padding-top: 0 !important;
     }
-    .content .imgBox{
-        padding: 0 !important;
-        height: 500px !important;
-    }
+
+   
+
     .col-md-6 {
         width: 100% !important;
+    }
+
+    .content .imgBox img {
+        width: 300px !important;
+    }
+    .thumb {
+        right: 0 !important;
+        position: absolute !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-content: center !important;
+        justify-content: flex-end !important;
+        top: 50% !important;
+        
+        transform: none !important;
+    }
+    .content .textBox {
+        text-align: center !important;
+        padding-left: 0 !important;
     }
 }
 
 @media only screen and (device-width: 768px) {
+
     /* default iPad screens */
     .header .img-user {
         width: auto !important;
         height: 400px !important;
     }
+
     .col-md-6 {
         width: 100% !important;
     }
+
     .contact-content {
         display: flex;
         flex-direction: column !important;
     }
-    .contact-content .img-contact img{
+
+    .contact-content .img-contact img {
         height: 150px !important;
     }
+
     .contact-content .img-contact {
         text-align: center;
     }
+
     /* 3d page */
     .content {
         display: flex;
         flex-direction: column !important;
     }
-    .content .textBox{
+
+    .content .textBox {
         text-align: center !important;
+        padding-left: 0 !important;
     }
+
     .content .textBox h2 {
         font-size: 30px !important;
-       
-        
 
-        
+
+
+
     }
-    .content .textBox h2 span{
+
+    .content .textBox h2 span {
         font-size: 50px !important;
-       
+
     }
-    .content .textBox p{
+
+    .content .textBox p {
         font-size: 14px !important;
-        word-wrap: break-word !important; 
+        word-wrap: break-word !important;
         padding-top: 0 !important;
     }
-    .content .imgBox{
-        padding: 0 !important;
-        height: 500px !important;
-    }
-    .timeline{
+
+  
+
+    .timeline {
         width: 100% !important;
     }
-    
+
+    .content .imgBox img {
+        width: 300px !important;
+    }
+
 }
 
 
@@ -881,6 +935,7 @@ nav.navbar-profile {
         width: 100%;
         padding: 20px;
     }
+
     .header .title {
         position: absolute;
         top: 50%;
@@ -888,66 +943,83 @@ nav.navbar-profile {
         text-align: start;
         padding: 20px 0;
     }
+
     .about .content-about .img-about .lable {
         left: 0 !important;
     }
+
     .header .contact ul {
         margin-top: -200px;
         font-size: 20px !important;
         padding: 0 !important;
         margin-left: -120px;
     }
+
     .contact-content {
         display: flex;
         flex-direction: column !important;
     }
-    .contact-content .img-contact img{
+
+    .contact-content .img-contact img {
         height: 150px !important;
     }
+
     .contact-content .img-contact {
         text-align: center;
     }
+
     .contact-content .img-contact {
         text-align: center;
     }
+
     /* 3d page */
     .content {
         display: flex;
         flex-direction: column !important;
     }
-    .content .textBox{
+
+    .content .textBox {
         text-align: center !important;
     }
+
     .content .textBox h2 {
         font-size: 30px !important;
-       
-        
 
-        
+
+
+
     }
-    .content .textBox h2 span{
+
+    .content .textBox h2 span {
         font-size: 50px !important;
-       
+
     }
-    .content .textBox p{
+
+    .content .textBox p {
         font-size: 14px !important;
-        word-wrap: break-word !important; 
+        word-wrap: break-word !important;
         padding-top: 0 !important;
     }
-    .content .imgBox{
-        padding: 0 !important;
-        height: 500px !important;
-    }
-     /* contact page */
+
+    
+
+    /* contact page */
     .timeline ul li a {
-        word-wrap: break-word !important; 
+        word-wrap: break-word !important;
         width: 60% !important;
     }
-    .timeline{
+
+    .timeline {
         width: 80% !important;
-        
+
     }
-    
+
+    .content .imgBox img {
+        width: 500px !important;
+    }
+
+  
+
     /* For portrait layouts only */
 }
 
