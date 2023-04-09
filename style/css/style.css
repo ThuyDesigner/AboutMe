@@ -802,10 +802,13 @@ nav.navbar-profile {
     .content {
         display: flex;
         flex-direction: column !important;
+        padding-top: 20px;
     }
 
     .content .textBox {
         text-align: center !important;
+        padding-left: 0 !important;
+        width: max-content !important;
     }
 
     .content .textBox h2 {
@@ -814,6 +817,9 @@ nav.navbar-profile {
 
 
 
+    }
+    .navbar-profile .view-3d-nav {
+        background-color: white !important;
     }
 
     .content .textBox h2 span {
@@ -827,29 +833,48 @@ nav.navbar-profile {
         padding-top: 0 !important;
     }
 
-   
+
 
     .col-md-6 {
+        width: 100% !important;
+    }
+
+    .content .imgBox {
+        padding-right: 0 !important;
         width: 100% !important;
     }
 
     .content .imgBox img {
         width: 300px !important;
     }
+
     .thumb {
         right: 0 !important;
         position: absolute !important;
         display: flex !important;
-        flex-direction: column !important;
+        flex-direction: row !important;
         align-content: center !important;
-        justify-content: flex-end !important;
+        justify-content: center !important;
         top: 50% !important;
-        
         transform: none !important;
+        padding-bottom: 0 !important;
+        flex-wrap: wrap !important;
+
     }
+
     .content .textBox {
         text-align: center !important;
         padding-left: 0 !important;
+        width: max-content !important;
+    }
+    .header-3d-view {
+        min-height: max-content !important;
+    }
+    .thumb li img {
+        height: 50px !important;
+    }
+    .thumb li{
+        padding: 5px 0 !important;
     }
 }
 
@@ -880,13 +905,16 @@ nav.navbar-profile {
 
     /* 3d page */
     .content {
+        padding-top: 0 !important;
         display: flex;
         flex-direction: column !important;
+        padding-top: 20px;
     }
 
     .content .textBox {
         text-align: center !important;
         padding-left: 0 !important;
+        width: max-content !important;
     }
 
     .content .textBox h2 {
@@ -908,7 +936,10 @@ nav.navbar-profile {
         padding-top: 0 !important;
     }
 
-  
+    .content .imgBox {
+        padding-right: 0 !important;
+        width: 100% !important;
+    }
 
     .timeline {
         width: 100% !important;
@@ -916,6 +947,16 @@ nav.navbar-profile {
 
     .content .imgBox img {
         width: 300px !important;
+    }
+    .thumb li img {
+        height: 50px !important;
+    }
+    .navbar-profile .view-3d-nav {
+        background-color: white !important;
+    }
+
+    .header-3d-view {
+        min-height: max-content !important;
     }
 
 }
@@ -976,10 +1017,13 @@ nav.navbar-profile {
     .content {
         display: flex;
         flex-direction: column !important;
+        padding-top: 20px;
     }
 
     .content .textBox {
         text-align: center !important;
+        padding-left: 0 !important;
+        width: max-content !important;
     }
 
     .content .textBox h2 {
@@ -988,6 +1032,10 @@ nav.navbar-profile {
 
 
 
+    }
+
+    .header-3d-view {
+        min-height: max-content !important;
     }
 
     .content .textBox h2 span {
@@ -1001,7 +1049,10 @@ nav.navbar-profile {
         padding-top: 0 !important;
     }
 
-    
+    .navbar-profile .view-3d-nav {
+        background-color: white !important;
+    }
+
 
     /* contact page */
     .timeline ul li a {
@@ -1014,11 +1065,16 @@ nav.navbar-profile {
 
     }
 
+    .content .imgBox {
+        padding-right: 0 !important;
+        width: 100% !important;
+    }
+
     .content .imgBox img {
         width: 500px !important;
     }
 
-  
+
 
     /* For portrait layouts only */
 }
